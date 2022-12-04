@@ -1,0 +1,1095 @@
+@font-face {
+    font-family: poppins-bold;
+    src: url(poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppins-light;
+    src: url(poppins/Poppins-Light.ttf);
+}
+
+*{
+    font-family: poppins-light;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+.container{
+    position: relative;
+}
+.navbar{
+    display: flex;
+    box-shadow: .4rem 0rem 6rem grey;
+    border-bottom: 0.1rem solid gray;
+}
+.icon{
+    width: 93rem;
+    height: 5rem;
+    
+    background-image: url('dtlogo.png');
+    background-repeat: no-repeat;
+    background-size: 22rem;
+    background-position: 22rem;
+}
+.tripledot{
+    position: relative;
+    top: 2rem;
+    padding: 2rem;
+}
+.home, .finder, .settings, .user{
+    position: relative;
+    top: .0rem;
+    /* bottom: 6rem; */
+    width: 2rem;
+    height: 2rem;
+    background-color: blue;
+    border: 0.1rem solid blue;
+    border-radius: 50%;
+    margin: 2rem;
+}
+.home{
+    background-image: url('home icon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.finder{
+    background-image: url('binocular.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.settings{
+    background-image: url('settings.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user{
+    background-color: rgba(0, 0, 0, .6);
+    /* background-image: url('home icon.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tripledot{
+    top: 0rem;
+    font-size: 2rem;
+    color: rgb(17, 154, 208);
+}
+.journeyboard{
+    font-size: 2rem;
+    position: absolute;
+    top: 10rem;
+    width: 41rem;
+    height: 37rem;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    box-shadow: 2rem 2rem 8.94rem rgb(220, 220, 220);
+    border: 0.2rem solid rgba(255, 255, 255, );
+    background-color: black;
+    z-index: 55;
+}
+.heading>em{
+    position: relative;
+    left: 9rem;
+    cursor: pointer;
+}
+.boardcontent{
+
+    height: 90%;
+    border: 0.1rem solid rgba(124, 124, 124, .6);
+    background-color: white;
+}
+.heading{
+    font-family: poppins-bold;
+    color: white;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.point{
+    text-align: center;
+    font-family: poppins-bold;
+   border-bottom: 0.1rem solid grey;
+   cursor: pointer;
+}
+
+.tasklist>li{
+    
+    font-size: 1.5rem;
+    position: relative;
+    left: .3rem;
+}
+.slide{
+    transform: translateX(-33rem);
+}
+.disappear{
+    display: none;
+}
+.show{
+    display: block;
+}
+.hidshow{
+    width: fit-content;
+    height: fit-content;
+   position: relative;
+   top: 17rem;
+   left: 2rem;
+   z-index: 56;
+}
+.hidshow>p{
+    text-align: center;
+    width: 3rem;
+    height: fit-content;
+   font-size:   2rem;
+
+   position: absolute;
+   left: 0rem;
+   cursor: pointer;
+   bottom: 0rem;
+   border: 0.2rem solid aqua;
+   border-radius: 0.7rem;
+}
+.back>p{
+    position: absolute;
+    top: 40rem;
+    left: 34rem;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    border: 0.2rem solid red;
+    border-radius: 1rem;
+    z-index: 56;
+    background-color: rgb(17, 154, 208);
+    cursor: pointer;
+
+}
+.buttonclick{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgb(17, 154, 208);
+    border: 0.2rem solid black;
+    background-color: rgb(17, 154, 208);
+    color: black;
+}
+.rotate{
+    transform: rotate(90deg);
+    z-index: 56;   
+}
+.descopenerone>p{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 44rem;
+    top: 32rem;
+    /* background-color: red; */
+    font-size: 3rem;
+    transform: rotate(-90deg);
+    z-index: 45;
+    cursor: pointer;
+}
+.descopenertwo>p{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 101rem;
+    top: 39rem;
+    font-size: 3rem;
+    transform: rotate(-90deg);
+    z-index: 56;
+    cursor: pointer;
+}
+.descopenerthree>p{
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 46rem;
+    top: 103.5rem;
+    font-size: 3rem;
+    transform: rotate(-90deg);
+    z-index: 56;
+}
+.descopenerfour>p{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 105rem;
+    top: 75.5rem;
+    cursor: pointer;
+    font-size: 3rem;
+    transform: rotate(-90deg);
+    z-index: 56;
+}
+.descopenerfive>p{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 52rem;
+    top: 146.5rem;
+    font-size: 3rem;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    z-index: 56;
+}
+.descopenersix>p{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 101rem;
+    top: 107.9rem;
+    /* background-color: red; */
+    font-size: 5rem;
+    color: white;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    z-index: 56;
+}
+.rotateup{
+    
+        transform: rotate(-90deg);
+}
+.content{
+    position: relative;
+    left: 9rem;
+    top: 1.8rem;
+
+    width: 106rem;
+    height: 175.4rem;
+    background-color: blue;
+    border: .1rem solid black;
+} 
+.insidecontent{
+    position: relative;
+    top: 1.1rem;
+    height: 170.2rem;
+    background-color: #fff;
+}
+.contentheading>p{
+    font-size: 1.7rem;
+    text-align: center;   
+}
+.content>p{
+position: relative;
+left: 1rem;
+top: 2rem;
+    margin: 0;
+    padding: 0;
+    font-family: poppins-bold;
+    color: white;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.assetheadfirst{
+    position: absolute;
+    top: 4rem;
+    left: 6rem;
+    font-size: 1.5rem;
+    width:32rem;
+    border: .1rem solid white ;
+    box-shadow: 1rem 1rem 3rem 2rem rgb(225, 225, 225);
+    border-radius: 1rem;
+    background-color: black;
+    height: 20rem;
+    z-index: 15;
+
+}
+.assetfirstdesc{
+    background-color: #fff;
+    position: relative;
+    top: 3rem;
+    margin-top: 0;
+    padding: 0;
+    height: 18rem;
+    border: .2rem solid red;
+}
+.deschead{
+    background-color: #fff;
+    font-family: poppins-bold;
+    text-align: center;
+     font-size: 2rem;
+     color: red;
+}
+.desccontent{
+    background-color: #fff;
+    text-align: center;
+    font-weight: 800;
+}
+.assetfirstcontent{
+    background-color: white;
+    height: 14rem;
+    font-size: 1.4rem;
+}
+.assetseconddesc{
+    border: .2rem solid red;
+    width: 37rem;
+    height: fit-content;
+    position: absolute;
+    top: 16rem;
+    left: .4rem;
+    background-color: #fff;
+}
+.assetthreedesc{
+    border: .2rem solid red;
+    position: absolute;
+    width: 36rem;
+    height: fit-content;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    top: 109rem;
+    left: 15rem;
+    z-index: 15;
+}
+.assetfourdesc{
+    border: .2rem solid red;
+    position: absolute;
+    width: 43rem;
+    height: fit-content;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    top: 80.5rem;
+    left: 67rem;
+    z-index: 15;
+}
+.assetfivedesc{
+    border: .2rem solid red;
+    position: absolute;
+    width: 42.8rem;
+    height: fit-content;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    top: 152rem;
+    left: 14rem;
+    z-index: 15;
+}
+.assetsixdesc{
+    border: .2rem solid red;
+    position: absolute;
+
+    width: 42.8rem;
+    height: fit-content;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    top: 115rem;
+    left: 66rem;
+    z-index: 15;
+}
+.assetheadsecond{
+    position: absolute;
+    top:9rem; 
+    left: 58rem;
+    font-size: 1.4rem;
+    width: 38rem;
+    border: .1rem solid white ;
+    box-shadow: 1rem 1rem 3rem 2rem rgb(225, 225, 225);
+    border-radius: 1rem;
+    height: 21.3rem;
+    background-color: black;
+    z-index: 15;
+}
+#textarea{
+    position: relative;
+    top: 1rem;
+    left: 4rem;
+    margin-left: 2rem;
+    border: 0.1rem solid rgb(173, 171, 171);
+    border-radius: 1rem;
+}
+.submit>input{
+    position: relative;
+    top: 2rem;
+    left: 26rem;
+    background-color: green;
+    color: #fff;
+    border: .1rem solid green;
+    border-radius: 1rem;
+}
+.assetheadfirst>p, .assetheadsecond>p, .assetheadfour>p, .assetheadthree>p, .assetheadsix>p, .assetheadfive>p{
+    text-align: center;
+    color: white;
+}
+.assetfirstcontent, .assetsecondcontent, .assetfourcontent, .assetthreecontent, .assetsixcontent, .assetfivecontent {
+    background-color: white;
+}
+.assetsecondcontent{
+    position: relative;
+    /* background-color: red; */
+    height: 16rem;
+    border: 0.1rem solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    width: 37.9rem;
+}
+.assetheadfour{
+    position: absolute;
+    top: 35rem;
+    left: 33rem;
+}
+.assetheadthree>p, .assetthreecontent>p{
+    font-size: 1.5rem;
+
+}
+/* -------------------{  start }#asset three------------ */
+.assetheadthree{ 
+    height: 54rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    
+    width: 36rem;
+    border: .1rem solid white ;
+    box-shadow: 1rem 1rem 3rem 2rem rgb(225, 225, 225);
+    border-radius: 1rem;
+    background-color: black;
+    position: absolute;
+    left: 5rem;
+    top: 40rem;
+    z-index: 14;
+}
+.assetthreecontent{
+    position: relative;
+    bottom: 0rem;
+    width: 36rem;
+    height:100%;
+    background-color: #fff;
+    color: black;
+    /* border: 0.1rem solid red; */
+}
+.assetthreecontent>embed{
+    position: relative;
+    left: 3rem;
+    width:34rem;
+}
+.assetheadfour{
+    position: absolute;
+    top: 38rem;
+    left: 57rem;
+    height: 28.3rem;
+    z-index: 13;
+}
+.assetheadfour, .assetheadsix, .assetheadfive{
+     color: #fff;
+    font-size: 1.4rem;
+    width: 43rem;
+    border: .1rem solid white ;
+    box-shadow: 1rem 1rem 3rem 2rem rgb(225, 225, 225);
+    border-radius: 1rem;
+    background-color: black;
+}
+
+.assetfourcontent{
+    height: 23rem;
+    background-color: white;
+    background-image: url('fronimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.assetheadfive{
+position: absolute;
+top: 109rem;
+left: 4rem;
+z-index: 13;
+height: 28.5rem;
+}
+.assetfivecontent{
+    height: 23rem;
+    color: black;
+}
+.assetfivecontent>audio{
+    width: 54rem;
+    height: 26rem;
+}
+.audio>audio{
+    position: relative;
+    bottom: 2rem;
+    left: 2rem;
+    width: 33rem;
+    height: 14rem;
+}
+.assetsixtcontent{
+    height: 23rem;
+    border: 0.1rem solid white;
+}
+.assetheadsix{
+    position: absolute;
+    top: 73rem;
+    left: 56rem;
+    height: 27.4rem;
+    z-index: 12;
+}
+.assetsixcontent{
+    height: 22rem;
+}
+.assetsixcontent>iframe{
+    width: 42.8rem;
+    height: 22rem;
+}
+
+
+/* ----------------------------------------------------------------///responsiveness----------------------------------------------
+ */
+ @media  (max-width: 500px) {
+    html{
+        font-size: 5px;
+    }
+    *{
+        font-family: poppins-light;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    @font-face {
+        font-family: poppins-light;
+        src: url(Poppins-Light.ttf);
+    }
+    @font-face {
+        font-family: poppins-bold;
+        src: url(Poppins-Bold.ttf);
+    }
+    .container{
+        position: relative;
+    }
+    .navbar{
+        position: sticky;
+        top: 3rem;
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        box-shadow: .4rem 0rem 6rem grey;
+        border-bottom: 0.1rem solid gray;
+       
+    }
+        .icon{
+            position: relative;
+            right: 6rem;
+            width: 100%;
+            height: 9rem;
+            background-image: url('dtlogo.png');
+            background-repeat: no-repeat;
+            background-size: 30rem;
+            background-position: 14rem;
+        }
+        .tripledot{
+            position: relative;
+            top: 2rem;
+            padding: 2rem;
+            top: 0rem;
+            font-size: 4rem;
+            color: rgb(17, 154, 208);
+        }
+        .home, .finder, .settings, .user{
+            position: relative;
+            width: 5rem;
+            height: 4rem;
+            top: 2rem;
+            background-color: blue;
+            border: 0.1rem solid blue;
+            border-radius: 50%;
+            margin: 1rem;
+        }
+        .home{
+            background-image: url('home icon.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .finder{
+            background-image: url('binocular.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .settings{
+            background-image: url('settings.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .user{
+            background-color: rgba(0, 0, 0, .6);
+            /* background-image: url('home icon.jpg'); */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .journeyboard{
+            font-size: 2rem;
+            position: absolute;
+            top: 10rem;
+            width: 47rem;
+            height: 37rem;
+            border: 0.1rem solid white;
+            border-radius: 1rem;
+            box-shadow: 2rem 2rem 8.94rem rgb(220, 220, 220);
+            border: 0.2rem solid rgba(255, 255, 255, );
+            background-color: black;
+            z-index: 55;
+        }
+        .heading>em{
+            position: relative;
+            left: 12rem;
+            cursor: pointer;
+        }
+        .boardcontent{
+        
+            height: 90%;
+            border: 0.1rem solid rgba(124, 124, 124, .6);
+            background-color: white;
+        }
+        .heading{
+            font-family: poppins-bold;
+            color: white;
+            border-radius: 1rem;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .point{
+            text-align: center;
+            font-family: poppins-bold;
+           border-bottom: 0.1rem solid grey;
+           cursor: pointer;
+        }
+        
+        .tasklist>li{
+            
+            font-size: 2.5rem;
+            position: relative;
+            right: 2rem;
+        }
+        .slide{
+            transform: translateX(-41rem);
+        }
+        .disappear{
+            display: none;
+        }
+        .show{
+            display: block;
+        }
+        .hidshow{
+            width: fit-content;
+            height: fit-content;
+           position: relative;
+           top: 14rem;
+           left:1rem;
+           z-index: 56;
+        }
+        .hidshow>p{
+            text-align: center;
+            width: 3rem;
+            height: fit-content;
+           font-size:   2rem;
+           position: absolute;
+           cursor: pointer;
+           bottom: 0rem;
+           border: 0.2rem solid aqua;
+           border-radius: 0.7rem;
+        }
+        .back>p{
+            position: absolute;
+            top: 40rem;
+            left: 39rem;
+            font-size: 3rem;
+            width: 5rem;
+            height: 5rem;
+            text-align: center;
+            border: 0.2rem solid red;
+            border-radius: 1rem;
+            z-index: 56;
+            background-color: rgb(17, 154, 208);
+            cursor: pointer;
+        
+        }
+        .buttonclick{
+            width: 3.5rem;
+            height: 3.5rem;
+            background-color: rgb(17, 154, 208);
+            border: 0.2rem solid black;
+            background-color: rgb(17, 154, 208);
+            color: black;
+        }
+        .rotate{
+            transform: rotate(90deg);
+            z-index: 56;   
+        }
+        /* -------------------------------{ start }#aero for opening description------------ */
+        .descopenerone>p{
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            left: 62rem;
+            top: 53rem;
+            /* background-color: red; */
+            font-size: 5rem;
+            transform: rotate(-90deg);
+            z-index: 45;
+            cursor: pointer;
+        }
+        .descopenertwo>p{
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            left: 61.5rem;
+            /* background-color: red; */
+            top: 102rem;
+            font-size: 5rem;
+            transform: rotate(-90deg);
+            z-index: 56;
+            cursor: pointer;
+        }
+        .descopenerthree>p{
+            cursor: pointer;
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            left: 61.3rem;
+            top: 187rem;
+           
+            font-size: 5rem;
+            transform: rotate(-90deg);
+            z-index: 56;
+        }
+        .descopenerfour>p{
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            left: 58rem;
+            top: 250.5rem;
+          
+            cursor: pointer;
+            font-size: 5rem;
+            transform: rotate(-90deg);
+            z-index: 56;
+        }
+        .descopenerfive>p{
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            left: 61rem;
+            
+            top: 303.5rem;
+            font-size: 5rem;
+            transform: rotate(-90deg);
+            cursor: pointer;
+            z-index: 56;
+        }
+        .descopenersix>p{
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            left: 60rem;
+            
+            top: 347rem;
+            font-size: 5rem;
+            transform: rotate(-90deg);
+            cursor: pointer;
+            z-index: 56;
+        }
+        /* -------------------------------{ end }#aero for opening description------------ */
+        .rotateup{
+            
+                transform: rotate(-90deg);
+        }
+        .content{
+            position: relative;
+            left: 7rem;
+            top: 1.8rem;
+            width: 92%;
+            height: 345.4rem;
+            background-color: blue;
+            border: .1rem solid black;
+        } 
+        .insidecontent{
+            position: relative;
+            top: 1.1rem;
+            width: 100%;
+            height: 337.2rem;
+            background-color: #fff;
+        }
+        .contentheading>p{
+            font-size: 2.7rem;
+            text-align: center;   
+        }
+        .content>p{
+        position: relative;
+        left: 1rem;
+        top: 2rem;
+            margin: 0;
+            padding: 0;
+            font-family: poppins-bold;
+            color: white;
+            font-size: 2.4rem;
+            text-transform: capitalize;
+        }
+        /* ---------------------{  start  }#asset first -------------------- */
+        .assetheadfirst{
+            position: absolute;
+            top: 8rem;
+            left: 10rem;
+            font-size: 2.5rem;
+            width: 50rem;
+            border: .1rem solid white ;
+            box-shadow: 1rem 1rem 3rem 2rem rgb(225, 225, 225);
+            border-radius: 1rem;
+            background-color: black;
+            height: 32.8rem;
+            z-index: 35;
+        
+        }
+        
+        .assetfirstcontent{
+            background-color: white;
+            height:23rem;
+            font-size: 2.5rem;
+        }
+        /* ---------------------{  end  }#asset first -------------------- */
+/* --------------------------{  start }# descriptions box---------- */
+        .assetfirstdesc{
+            background-color: #fff;
+            position: relative;
+            top: 4rem;
+            margin-top: 0;
+            padding: 0;
+            height: 18rem;
+            border: .2rem solid red;
+            
+           
+        }
+        .deschead{
+            background-color: #fff;
+            font-family: poppins-bold;
+            text-align: center;
+             font-size: 2.5rem;
+             color: red;
+        }
+        .desccontent{
+            background-color: #fff;
+            text-align: center;
+            font-weight: 800;
+            font-size: 2.5rem;
+        }
+        
+        
+        .assetsixdesc{
+            border: .2rem solid red;
+            width: 53rem;
+            height: fit-content;
+            position: absolute;
+            top: 354.5rem;
+            left: 15rem;
+            background-color: #fff;
+        }
+        .assetthreedesc{
+            border: .2rem solid red;
+            position: absolute;
+            width: 48.8rem;
+            height: fit-content;
+            background-color: white;
+            text-align: center;
+         
+            font-size: 1.5rem;
+            font-weight: 800;
+            top: 199rem;
+            left: 18rem;
+            z-index: 15;
+        }
+        .assetfourdesc{
+            border: .2rem solid red;
+            position: absolute;
+            width: 53rem;
+            height: fit-content;
+            background-color: white;
+            font-size: 1.5rem;
+            font-weight: 800;
+            top: 259rem;
+            left: 16rem;
+            z-index: 43;
+        }
+        .assetfivedesc{
+            border: .2rem solid red;
+            position: absolute;
+            width: 52rem;
+            height: fit-content;
+            font-size: 1.5rem;
+            font-weight: 800;
+            top: 312rem;
+            left: 15rem;
+            z-index: 15;
+        }
+        .assetseconddesc{
+            border: .2rem solid red;
+            width: 51.8rem;
+            height: fit-content;
+            background-color: #fff;
+            font-size: 2.5rem;
+            font-weight: 800;
+            position: absolute;
+            top: 31rem;
+            right: 1rem;
+            z-index: 15;
+        }
+        /* --------------------------{  end  }#descriptions box---------- */
+        /* ---------------------{ start }#assset secondhead-------- */
+        .assetheadsecond{
+            position: absolute;
+            top: 50rem; 
+            left: 6rem;
+            font-size: 2.5rem;
+            width: 56rem;
+            border: .1rem solid white ;
+            box-shadow: 1rem 1rem 3rem 2rem rgb(225, 225, 225);
+            border-radius: 1rem;
+            height: 40.3rem;
+            background-color: black;
+            z-index: 15;
+        }
+        
+        .assetsecondcontent{
+            position: relative;
+            left: .7rem;
+            /* background-color: red; */
+            height: 30rem;
+            border: 0.1rem solid rgb(255, 255, 255);
+            border-radius: 1rem;
+            width: 53.6rem;
+        }
+        #textarea{
+            position: relative;
+            /* right: 3.9rem; */
+            left: 1rem;
+            margin-left: 2rem;
+            border: 0.1rem solid rgb(173, 171, 171);
+            border-radius: 1rem;
+        }
+        .submit>input{
+            position: relative;
+            top: 1rem;
+            left: 29rem;
+            background-color: green;
+            color: #fff;
+            border: .1rem solid green;
+            border-radius: 1rem;
+        }
+        /* ---------------------{ end }#assset secondhead-------- */
+        .assetheadfirst>p, .assetheadsecond>p, .assetheadfour>p, .assetheadthree>p, .assetheadsix>p, .assetheadfive>p{
+            text-align: center;
+            color: white;
+        }
+        .assetfirstcontent, .assetsecondcontent, .assetfourcontent, .assetthreecontent, .assetsixcontent, .assetfivecontent {
+            background-color: white;
+        }
+        .assetheadthree>p, .assetthreecontent>p{
+            font-size: 2.5rem;
+        
+        }
+        /* ------------------{ start }#asset three--------------------- */
+        .assetheadthree{ 
+            height:76rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50rem;
+            border: .1rem solid white ;
+            box-shadow: 1rem 1rem 3rem 2rem rgb(225, 225, 225);
+            border-radius: 1rem;
+            background-color: black;
+            position: absolute;
+            left: 9rem;
+            top: 100rem;
+            z-index: 14;
+        }
+        
+        .assetthreecontent{
+            position: relative;
+            bottom: 0rem;
+            width: 49rem;
+            height: 100%;
+            background-color: #fff;
+            color: black;
+        }
+     
+       
+.assetthreecontent>embed{
+    position: relative;
+    object-fit: cover;
+    left: 3rem;
+    width:48rem;
+}
+
+                /* ------------------{ end }#asset three--------------------- */
+        /* ----------------------------------{ start }#asset four--------------------------- */
+        .assetheadfour{
+            position: absolute;
+            top: 198rem;
+            left: 6rem;
+            height: 34.3rem;
+            z-index: 13;
+        }
+        .assetfourcontent{
+            height: 32rem;
+            background-color: white;
+            background-image: url('fronimg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* ----------------------------------{  end }#asset head four---------------------  */
+        .assetheadfour, .assetheadsix, .assetheadfive{
+             color: #fff;
+            font-size: 2.5rem;
+            width: 53rem;
+            border: .1rem solid white ;
+            box-shadow: 1rem 1rem 3rem 2rem rgb(225, 225, 225);
+            border-radius: 1rem;
+            background-color: black;
+        }
+        
+        
+        
+        .assetheadfive{
+        position: absolute;
+        top: 249rem;
+        left: 6rem;
+        z-index: 13;
+        height: 42rem;
+        }
+        .assetfivecontent{
+            text-align: center;
+            height: 32.6rem;
+            color: black;
+        }
+        .assetfivecontent>audio{
+            width: 54rem;
+            height: 26rem;
+        }
+        .audio>audio{
+            position: relative;
+            bottom: 2rem;
+            left: 2rem;
+            width: 33rem;
+            height: 14rem;
+        }
+        .assetsixtcontent{
+            height: 23rem;
+            border: 0.1rem solid white;
+        }
+        .assetheadsix{
+            position: absolute;
+            top: 303rem;
+            left: 6rem;
+            height: 31.4rem;
+            z-index: 12;
+        }
+        .assetsixcontent{
+            height: 22rem;
+        }
+        .assetsixcontent>iframe{
+            width: 52rem;
+            height: 21.4rem;
+        }        
+    }                                                                                                                                                                                                                                                                                     
